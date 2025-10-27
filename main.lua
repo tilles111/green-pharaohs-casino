@@ -471,11 +471,11 @@ SMODS.Joker{
 }
 
 SMODS.Joker{
-    key = 'davey',
+    key = 'emma',
     loc_txt = {
-        name = 'Davey',
+        name = 'emma',
         text = {
-            'Davey'
+            'emma'
         }
     },
     atlas = 'jokers',
@@ -490,7 +490,7 @@ SMODS.Joker{
                 randommessage = math.random(1, 3)
                 if randommessage == 1 then
                     return {
-                        message = "Davey"
+                        message = "emma"
                     }
                 elseif randommessage == 2 then
                     return {
@@ -650,4 +650,5 @@ SMODS.Consumable {
 }
 
 ----------------------------------------------
+
 ------------MOD CODE END----------------------
